@@ -1,0 +1,20 @@
+{
+  "name": "questraw",
+  "authors": [
+    "Vanessa Rusu <vanessarusu@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
