@@ -21,7 +21,7 @@
 		}
 	});
 	var listItems = document.querySelector('#menu-topbar-menu').childNodes;
-	listItems[listItems.length-2].lastChild.innerHTML = '<img src="'+WPURLS.siteurl+'/wp-content/themes/questraw/img/facebook-icon.svg">';
+	listItems[listItems.length-2].lastChild.innerHTML = '<img src="'+WPURLS.siteurl+'/wp-content/themes/Quest-Raw/img/facebook-icon.svg">';
 
 
 } )();
