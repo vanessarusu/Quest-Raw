@@ -21,6 +21,10 @@
 #pg-20-0, #pl-20 .panel-grid-cell .so-panel {
 	margin-bottom: 0 !important;
 }
+#pg-20-3, #pg-20-4 {
+	margin-left: -15px !important;
+	margin-right: -15px !important;
+}
 
 
 .hero-image {
@@ -243,11 +247,20 @@ footer {
 		}
 
 	}
+	.so-widget-sow-hero-default-6d51e91fae8c .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper {
+		padding: 8rem 1rem;
+	}
 	#learnMore {
+		padding: 1rem !important;
 		h4 {
 			width: 90%;
 			font-size: 1.2rem;
 			line-height: 1.5rem;
+		}
+	}
+	.blockquote-author {
+		p {
+			margin-left: 0;
 		}
 	}
 	#blackCTA {
@@ -266,8 +279,9 @@ footer {
 		a {
 			text-align: center;
 			display: block;
-			width: 80%;
-			margin: 0 10%;
+			width: 100%;
+			margin: 0 auto;
+			padding: 0.5rem 0.2rem;
 		}
 	}
 

@@ -24,18 +24,18 @@ blockquote {
 		top: 8px;
 		left: -3rem;
 	}
-	&:after {
-		content: '';
-		background: url(img/blockquote-close.png)top left no-repeat;
-		background-size: contain;
-		display: block;
-		width: 25px;
-		height: 25px;
-		font-size: 2.2rem;
-		position: absolute;
-		bottom: -2rem;
-		right: 0;
-	}
+	// &:after {
+	// 	content: '';
+	// 	background: url(img/blockquote-close.png)top left no-repeat;
+	// 	background-size: contain;
+	// 	display: block;
+	// 	width: 25px;
+	// 	height: 25px;
+	// 	font-size: 2.2rem;
+	// 	position: absolute;
+	// 	bottom: -2rem;
+	// 	right: 0;
+	// }
 }
 
 address {
@@ -70,4 +70,13 @@ mark, ins {
 
 big {
 	font-size: 125%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+	blockquote {
+		margin: 0 1rem;
+		&:before {
+			left: -2rem;
+		}
+	}
 }

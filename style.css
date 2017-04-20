@@ -46,6 +46,10 @@ header, .row {
   margin: 0 auto;
   padding: 0 2rem; }
 
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  header, .row {
+    padding: 0 0.8rem; } }
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -222,6 +226,9 @@ td,
 th {
   padding: 0; }
 
+ul {
+  padding: 0; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -263,17 +270,6 @@ blockquote {
     position: absolute;
     top: 8px;
     left: -3rem; }
-  blockquote:after {
-    content: '';
-    background: url(img/blockquote-close.png) top left no-repeat;
-    background-size: contain;
-    display: block;
-    width: 25px;
-    height: 25px;
-    font-size: 2.2rem;
-    position: absolute;
-    bottom: -2rem;
-    right: 0; }
 
 address {
   margin: 0 0 1.5em; }
@@ -304,6 +300,12 @@ mark, ins {
 
 big {
   font-size: 125%; }
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  blockquote {
+    margin: 0 1rem; }
+    blockquote:before {
+      left: -2rem; } }
 
 /*--------------------------------------------------------------
 # Elements
@@ -510,7 +512,8 @@ header ul {
     justify-content: space-betwen;
     margin-left: auto; }
     #site-navigation #primary-menu li {
-      margin: 0 0 0 3rem; }
+      margin: 0 0 0 3rem;
+      float: left; }
       #site-navigation #primary-menu li a {
         font-size: 1.2rem;
         font-weight: bold; }
@@ -525,7 +528,8 @@ header ul {
     #site-navigation #menu-topbar-menu li {
       border-right: 1px solid #AFAFAF;
       padding: 0 1rem;
-      line-height: 0.8rem; }
+      line-height: 0.8rem;
+      float: left; }
       #site-navigation #menu-topbar-menu li:last-of-type {
         border-right: none; }
       #site-navigation #menu-topbar-menu li a {
@@ -533,6 +537,10 @@ header ul {
         font-size: 0.9rem; }
         #site-navigation #menu-topbar-menu li a img {
           margin-top: -5px; }
+    #site-navigation #menu-topbar-menu:after {
+      clear: both;
+      display: block;
+      content: ''; }
 
 #mobileNav {
   display: none;
@@ -773,6 +781,10 @@ header ul {
 #pg-20-0, #pl-20 .panel-grid-cell .so-panel {
   margin-bottom: 0 !important; }
 
+#pg-20-3, #pg-20-4 {
+  margin-left: -15px !important;
+  margin-right: -15px !important; }
+
 .hero-image {
   background: #333333; }
   .hero-image h1 {
@@ -815,7 +827,7 @@ header ul {
     width: 100px;
     background-color: #AC1F23;
     position: relative;
-    margin: 1.3rem auto; }
+    margin: 1rem auto; }
 
 #pg-20-3 p {
   line-height: 1.8rem; }
@@ -869,7 +881,7 @@ header ul {
     width: 100px;
     background-color: #F6A623;
     position: relative;
-    margin: 1.3rem auto; }
+    margin: 1rem auto; }
 
 #learnMore h4 {
   max-width: 850px;
@@ -936,7 +948,7 @@ header ul {
     width: 100px;
     background-color: #8B572A;
     position: relative;
-    margin: 1.3rem auto; }
+    margin: 1rem auto; }
 
 #contact img {
   margin-top: 2rem; }
@@ -1013,10 +1025,16 @@ footer {
     max-width: 100%;
     margin: 0 auto !important;
     text-align: center; }
-  #learnMore h4 {
-    width: 90%;
-    font-size: 1.2rem;
-    line-height: 1.5rem; }
+  .so-widget-sow-hero-default-6d51e91fae8c .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper {
+    padding: 8rem 1rem; }
+  #learnMore {
+    padding: 1rem !important; }
+    #learnMore h4 {
+      width: 90%;
+      font-size: 1.2rem;
+      line-height: 1.5rem; }
+  .blockquote-author p {
+    margin-left: 0; }
   #blackCTA h3 {
     font-size: 1.5rem;
     line-height: 2.2rem;
@@ -1028,8 +1046,9 @@ footer {
   .red-links a {
     text-align: center;
     display: block;
-    width: 80%;
-    margin: 0 10%; }
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem 0.2rem; }
   footer .site-info {
     display: block;
     text-align: center; } }
