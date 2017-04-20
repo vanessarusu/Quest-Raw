@@ -14,7 +14,7 @@ blockquote {
 	position: relative;
 	&:before {
 		content: '';
-		background: url(img/blockquote-open.png)top left no-repeat;
+		background: url(img/blockquote-open.svg)top left no-repeat;
 		background-size: contain;
 		display: block;
 		width: 25px;
