@@ -48,7 +48,10 @@ header, .row {
 
 @media screen and (min-width: 0px) and (max-width: 600px) {
   header, .row {
-    padding: 0 0.8rem; } }
+    padding: 0 0.8rem; }
+  #pg-20-0 .panel-grid-cell, #pg-20-1 .panel-grid-cell, #pg-20-2 .panel-grid-cell, #pg-20-5 .panel-grid-cell, #pg-20-6 .panel-grid-cell, #pg-20-7 .panel-grid-cell {
+    padding-left: 0;
+    padding-right: 0; } }
 
 /*--------------------------------------------------------------
 # Normalize

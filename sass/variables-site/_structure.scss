@@ -10,4 +10,8 @@ header, .row {
 	header, .row {
 		padding: 0 0.8rem;
 	}
+	#pg-20-0 .panel-grid-cell, #pg-20-1 .panel-grid-cell, #pg-20-2 .panel-grid-cell, #pg-20-5 .panel-grid-cell, #pg-20-6 .panel-grid-cell, #pg-20-7 .panel-grid-cell {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
