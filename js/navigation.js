@@ -36,10 +36,12 @@ var links = document.getElementsByTagName('a');
 var href;
 for(var i=0; i<links.length; i++)
 {   
+    console.log('for');
     href = (links[i].attributes.href === undefined) ? null : links[i].attributes.href.nodeValue.toString();
     // if(href !== null && href.length > 1 && href.substr(0, 1) == '#')
     if(href !== null && href.length > 1 && href.indexOf("/#") > -1)
     {
+        console.log('hi :)');
         links[i].onclick = function()
         {
             var element;
