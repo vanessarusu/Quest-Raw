@@ -284,6 +284,41 @@ input#wpsl-search-btn {
 	background: #f9f9f9;
 }
 
+
+#feedingGuidelinesHeader {
+	padding: 3rem;
+	background: $questBlack;
+	h1 {
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+}
+table.tablepress {
+	thead th {
+		background-color: $questRed;
+		color: $questWhite;
+		font-family: $font__header;
+		font-weight: 500;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		line-height: 1.3;
+		font-size: 0.9rem;
+		text-align: center;
+	}
+	tbody td {
+		text-align: center;
+		font-size: 0.9rem;
+	}
+}
+
+.inner-page-titles {
+	h2 {
+		@include headingUnderline($questRed);
+	}
+}
+
 @media screen and (min-width: 0px) and (max-width: 800px) {
 
 	.hero-image {
