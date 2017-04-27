@@ -251,6 +251,26 @@ footer {
 		font-weight: bold;
 	}
 }
+#wpsl-search-wrap {
+	form {
+		label {
+			font-family: $font__header;
+			font-size: 0.9rem;
+			text-transform: uppercase;
+			letter-spacing: 0.5px;
+			color: $questRed;
+		}
+	}
+}
+input#wpsl-search-btn {
+	width: 100%;
+	margin-top: 0.5rem;
+	padding: 1.38rem 4rem;
+	font-family: $font__header;
+	text-transform: uppercase !important;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
 

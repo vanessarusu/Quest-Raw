@@ -1041,6 +1041,22 @@ footer {
   #wpsl-stores .wpsl-direction-wrap {
     font-weight: bold; }
 
+#wpsl-search-wrap form label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #AC1F23; }
+
+input#wpsl-search-btn {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 1.38rem 4rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase !important;
+  font-weight: bold;
+  letter-spacing: 0.5px; }
+
 @media screen and (min-width: 0px) and (max-width: 800px) {
   .hero-image h1 {
     font-size: 1.8rem !important; }
