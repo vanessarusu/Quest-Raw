@@ -1076,7 +1076,8 @@ input#wpsl-search-btn {
     color: #FFF;
     letter-spacing: 3px;
     text-align: center;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-weight: 500; }
 
 table.tablepress thead th {
   background-color: #AC1F23;
@@ -1116,6 +1117,9 @@ table.tablepress tbody td {
   margin-bottom: 0 !important; }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
+  .row {
+    max-width: 90%;
+    margin: 0 auto; }
   .hero-image h1 {
     font-size: 1.8rem !important; }
   .hero-image h1, .hero-image h3 {
