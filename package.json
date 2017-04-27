@@ -1,0 +1,28 @@
+{
+  "name": "questraw",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "jshint": "^2.9.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessarusu/Quest-Raw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanessarusu/Quest-Raw/issues"
+  },
+  "homepage": "https://github.com/vanessarusu/Quest-Raw#readme"
+}
