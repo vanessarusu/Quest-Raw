@@ -290,7 +290,8 @@ input#wpsl-search-btn {
 	background: $questBlack;
 	h1 {
 		text-transform: uppercase;
-		letter-spacing: 1px;
+		color: $questWhite;
+		letter-spacing: 3px;
 		text-align: center;
 		margin-bottom: 0;
 	}
@@ -316,7 +317,17 @@ table.tablepress {
 .inner-page-titles {
 	h2 {
 		@include headingUnderline($questRed);
+		max-width: 630px;
+		margin: 0 auto;
 	}
+}
+#pg-170-3, #pg-170-4 {
+	margin-bottom: 0;
+	padding: 2rem 0;
+	background-color: #fafafa;
+}
+#pg-170-4 {
+	margin-bottom: 30px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
