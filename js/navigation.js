@@ -38,11 +38,8 @@ for(var i=0; i<links.length; i++)
 {   
     
     href = (links[i].attributes.href === undefined) ? null : links[i].attributes.href.nodeValue.toString();
-    console.log(href.substr(0, 8));
-    // console.log(href.indexOf('#'));
-    console.log(href);
-    if(href !== null && href.length > 1 && href.substr(0, 8) == '/quest/#')
-    // if(href !== null && href.length > 1 && href.indexOf("#") > -1)
+    // if(href !== null && href.length > 1 && href.substr(0, 1) == '#')
+    if(href !== null && href.length > 1 && href.indexOf("#") > -1)
     {
         // console.log('hi :)');
         links[i].onclick = function()
