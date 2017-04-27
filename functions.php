@@ -222,6 +222,14 @@ add_action('customize_register', 'add_footer_customizer');
 
 
 
+add_filter( 'wpsl_draggable_map', 'custom_draggable_map' );
+
+function custom_draggable_map() {
+
+    $draggable['enabled'] = false;
+    
+    return $draggable;
+}
 
 
 
