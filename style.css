@@ -1017,6 +1017,30 @@ footer {
     footer .contact-info p {
       margin: 0.4rem; }
 
+#storeLocatorHeader h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  position: relative;
+  color: #FFF; }
+  #storeLocatorHeader h1:after {
+    content: '';
+    display: block;
+    height: 6px;
+    width: 100px;
+    background-color: #AC1F23;
+    position: relative;
+    margin: 1rem auto; }
+
+#storeLocatorHeader img {
+  width: 40px;
+  margin-bottom: 2rem; }
+
+#wpsl-stores {
+  font-size: 0.8rem; }
+  #wpsl-stores .wpsl-direction-wrap {
+    font-weight: bold; }
+
 @media screen and (min-width: 0px) and (max-width: 800px) {
   .hero-image h1 {
     font-size: 1.8rem !important; }

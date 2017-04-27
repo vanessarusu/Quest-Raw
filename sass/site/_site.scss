@@ -234,6 +234,24 @@ footer {
 	}
 }
 
+#storeLocatorHeader {
+	h1 {
+		@include headingUnderline($questRed);
+		color: $questWhite;
+	}
+	img {
+		width: 40px;
+		margin-bottom: 2rem;
+	}
+}
+
+#wpsl-stores {
+	font-size: 0.8rem;
+	.wpsl-direction-wrap {
+		font-weight: bold;
+	}
+}
+
 @media screen and (min-width: 0px) and (max-width: 800px) {
 
 	.hero-image {
