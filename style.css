@@ -1076,8 +1076,12 @@ input#wpsl-search-btn {
     color: #FFF;
     letter-spacing: 3px;
     text-align: center;
-    margin-bottom: 0;
+    max-width: 620px;
+    margin: 0 auto;
     font-weight: 500; }
+
+#productInfoHeader {
+  background: #AC1F23; }
 
 table.tablepress {
   color: #333333; }
@@ -1148,8 +1152,59 @@ table.tablepress {
   font-size: 0.9rem;
   letter-spacing: 1px; }
 
-@media screen and (min-width: 700px) and (max-width: 950px) {
+@media screen and (min-width: 600px) and (max-width: 950px) {
   transform: scale(0.75); }
+
+#productInfoHero {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  #productInfoHero h2 {
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 36px;
+    line-height: 1.3;
+    color: #AC1F23;
+    max-width: 560px;
+    position: relative; }
+    #productInfoHero h2:after {
+      content: '';
+      display: block;
+      height: 6px;
+      width: 100px;
+      background-color: #333333;
+      margin: 1rem 0; }
+
+#productInfoCTA {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+  #productInfoCTA h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    position: relative; }
+    #productInfoCTA h2:after {
+      content: '';
+      display: block;
+      height: 6px;
+      width: 100px;
+      background-color: #AC1F23;
+      position: relative;
+      margin: 1rem auto; }
+  #productInfoCTA a {
+    display: inline-block;
+    background: rgba(172, 31, 35, 0.85);
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    padding: 0.6rem 5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 5px solid #AC1F23;
+    border-radius: 4px;
+    transition: all 0.3s ease; }
+    #productInfoCTA a:hover {
+      background: #AC1F23; }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
   .hero-image h1 {
