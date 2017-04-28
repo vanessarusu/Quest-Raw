@@ -1079,20 +1079,21 @@ input#wpsl-search-btn {
     margin-bottom: 0;
     font-weight: 500; }
 
-table.tablepress thead th {
-  background-color: #AC1F23;
-  color: #FFF;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  line-height: 1.3;
-  font-size: 0.9rem;
-  text-align: center; }
-
-table.tablepress tbody td {
-  text-align: center;
-  font-size: 0.9rem; }
+table.tablepress {
+  color: #333333; }
+  table.tablepress thead th {
+    background-color: #333333;
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    font-size: 0.9rem;
+    text-align: center; }
+  table.tablepress tbody td {
+    text-align: center;
+    font-size: 0.9rem; }
 
 .inner-page-titles h2 {
   text-transform: uppercase;
@@ -1111,15 +1112,15 @@ table.tablepress tbody td {
     margin: 1rem auto; }
 
 #pg-170-3, #pg-170-4 {
-  background-color: #fafafa; }
+  background-color: #AC1F23;
+  color: #FFF; }
 
 #pg-170-3 {
   margin-bottom: 0 !important; }
+  #pg-170-3 .inner-page-titles h2:after {
+    background-color: #333333; }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
-  .row {
-    max-width: 90%;
-    margin: 0 auto; }
   .hero-image h1 {
     font-size: 1.8rem !important; }
   .hero-image h1, .hero-image h3 {
