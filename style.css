@@ -1081,7 +1081,16 @@ input#wpsl-search-btn {
     font-weight: 500; }
 
 #productInfoHeader {
-  background: #AC1F23; }
+  background: #a51013;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a51013 0%, #ac1f23 50%, #a51013 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a51013 0%, #ac1f23 50%, #a51013 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a51013 0%, #ac1f23 50%, #a51013 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a51013', endColorstr='#a51013',GradientType=0 );
+  /* IE6-9 */ }
 
 table.tablepress {
   color: #333333; }
@@ -1156,7 +1165,7 @@ table.tablepress {
   transform: scale(0.75); }
 
 #productInfoHero {
-  padding-top: 4rem;
+  padding-top: 3rem;
   padding-bottom: 4rem; }
   #productInfoHero h2 {
     font-weight: 500;
@@ -1165,7 +1174,8 @@ table.tablepress {
     line-height: 1.3;
     color: #AC1F23;
     max-width: 560px;
-    position: relative; }
+    position: relative;
+    text-transform: uppercase; }
     #productInfoHero h2:after {
       content: '';
       display: block;
@@ -1175,13 +1185,17 @@ table.tablepress {
       margin: 1rem 0; }
 
 #productInfoCTA {
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #FFF;
+  font-family: "Montserrat", sans-serif; }
   #productInfoCTA h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 500;
-    position: relative; }
+    position: relative;
+    max-width: 550px;
+    margin: auto; }
     #productInfoCTA h2:after {
       content: '';
       display: block;
