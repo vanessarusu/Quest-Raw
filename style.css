@@ -1120,6 +1120,9 @@ table.tablepress {
   #pg-170-3 .inner-page-titles h2:after {
     background-color: #333333; }
 
+.nutrition-table table.tablepress {
+  transform: scale(1); }
+
 .nutrition-table table.tablepress tbody td {
   text-align: left;
   font-size: 0.9rem; }
@@ -1136,6 +1139,9 @@ table.tablepress {
   text-transform: uppercase;
   font-size: 0.9rem;
   letter-spacing: 1px; }
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+  transform: scale(0.75); }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
   .hero-image h1 {

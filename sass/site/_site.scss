@@ -333,6 +333,17 @@ table.tablepress {
 		background-color: $questBlack;
 	}
 }
+.nutrition-table h3 {
+	font-family: $font__header;
+	font-weight: 500;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0.2rem; auto;
+}
+.nutrition-table table.tablepress {
+	transform: scale(1.0);
+}
 .nutrition-table table.tablepress tbody td {
 	text-align: left;
 	font-size: 0.9rem;
@@ -350,6 +361,10 @@ table.tablepress {
 	font-size: 0.9rem;
 	letter-spacing: 1px;
 }
+@media screen and (min-width: 700px) and (max-width: 950px) {
+	transform: scale(0.75);
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
 
