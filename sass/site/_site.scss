@@ -285,7 +285,7 @@ input#wpsl-search-btn {
 }
 
 
-#feedingGuidelinesHeader {
+#feedingGuidelinesHeader, #productInfoHeader {
 	padding: 3rem;
 	background: $questBlack;
 	h1 {
@@ -332,6 +332,23 @@ table.tablepress {
 	.inner-page-titles h2:after {
 		background-color: $questBlack;
 	}
+}
+.nutrition-table table.tablepress tbody td {
+	text-align: left;
+	font-size: 0.9rem;
+}
+.nutrition-table table.tablepress thead th {
+	text-align: left;
+	font-size: 0.9rem;
+	background: $questRed;
+}
+.nutrition-table table.tablepress tfoot th {
+	background-color: $questBlack;
+	color: $questWhite;
+	font-family: $font__header;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {

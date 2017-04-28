@@ -1068,10 +1068,10 @@ input#wpsl-search-btn {
 #wpsl-wrap #wpsl-result-list ul li:nth-child(even) {
   background: #f9f9f9; }
 
-#feedingGuidelinesHeader {
+#feedingGuidelinesHeader, #productInfoHeader {
   padding: 3rem;
   background: #333333; }
-  #feedingGuidelinesHeader h1 {
+  #feedingGuidelinesHeader h1, #productInfoHeader h1 {
     text-transform: uppercase;
     color: #FFF;
     letter-spacing: 3px;
@@ -1119,6 +1119,23 @@ table.tablepress {
   margin-bottom: 0 !important; }
   #pg-170-3 .inner-page-titles h2:after {
     background-color: #333333; }
+
+.nutrition-table table.tablepress tbody td {
+  text-align: left;
+  font-size: 0.9rem; }
+
+.nutrition-table table.tablepress thead th {
+  text-align: left;
+  font-size: 0.9rem;
+  background: #AC1F23; }
+
+.nutrition-table table.tablepress tfoot th {
+  background-color: #333333;
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px; }
 
 @media screen and (min-width: 0px) and (max-width: 800px) {
   .hero-image h1 {
