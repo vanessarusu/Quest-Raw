@@ -5,8 +5,10 @@
 //  * navigation support for dropdown menus.
 //  */
 ( function() {
+    var basePath = 'http://www.vanessarusu.com/quest'
 	var mobileNavIcon = document.querySelector('#mobileNav .container');
 	var mobileNav = document.querySelector('#mobile-nav-container');
+    var logoLink = document.querySelector('.site-branding img');
 
 	var open = false;
 	mobileNavIcon.addEventListener('click', function(){
@@ -23,6 +25,9 @@
 	var listItems = document.querySelector('#menu-topbar-menu').childNodes;
 	listItems[listItems.length-2].lastChild.innerHTML = '<img src="'+WPURLS.siteurl+'/wp-content/themes/Quest-Raw/img/facebook-icon.svg">';
 
+    logoLink.addEventListener('click', function(){
+        window.location.href = basePath;
+    }, false);
 
 } )();
 

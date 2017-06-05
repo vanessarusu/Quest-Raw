@@ -500,7 +500,8 @@ header ul {
     max-width: 200px;
     width: 100%;
     position: absolute;
-    z-index: 200; }
+    z-index: 200;
+    cursor: pointer; }
 
 #site-navigation {
   display: block;
