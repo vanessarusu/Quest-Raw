@@ -1124,6 +1124,10 @@ table.tablepress {
     position: relative;
     margin: 1rem auto; }
 
+#pl-209 img {
+  max-width: 150px;
+  height: auto; }
+
 #pg-170-3, #pg-170-4 {
   background-color: #AC1F23;
   color: #FFF; }
