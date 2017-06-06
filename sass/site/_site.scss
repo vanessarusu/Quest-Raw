@@ -298,6 +298,8 @@ input#wpsl-search-btn {
 		font-weight: 500;
 	}
 }
+
+
 #productInfoHeader {
 	background: #a3090c; /* Old browsers */
 background: -moz-linear-gradient(left, #a3090c 0%, #ac1f23 50%, #a3090c 100%); /* FF3.6-15 */
@@ -372,6 +374,21 @@ table.tablepress {
 	text-transform: uppercase;
 	font-size: 0.9rem;
 	letter-spacing: 1px;
+}
+@media screen and (min-width: 950px) {
+	#post-170.hentry {
+		margin-bottom: 0;
+	}
+	.row.panel-row-style.panel-row-style-for-170-5 {
+		position: relative;
+	}
+	#pgc-170-5-0 {
+		position: absolute;
+		bottom: 0;
+	}
+	#pgc-170-5-1 {
+		margin-left: 40%;
+	}
 }
 
 
