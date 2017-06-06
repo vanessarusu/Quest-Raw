@@ -1166,6 +1166,17 @@ table.tablepress {
   font-size: 0.9rem;
   letter-spacing: 1px; }
 
+@media screen and (min-width: 950px) {
+  #post-170.hentry {
+    margin-bottom: 0; }
+  .row.panel-row-style.panel-row-style-for-170-5 {
+    position: relative; }
+  #pgc-170-5-0 {
+    position: absolute;
+    bottom: 0; }
+  #pgc-170-5-1 {
+    margin-left: 40%; } }
+
 @media screen and (min-width: 600px) and (max-width: 950px) {
   transform: scale(0.75); }
 
