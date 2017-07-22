@@ -5,7 +5,7 @@
 //  * navigation support for dropdown menus.
 //  */
 ( function() {
-    var basePath = 'http://www.questraw.ca/quest'
+    var basePath = 'http://www.questraw.ca/'
 	var mobileNavIcon = document.querySelector('#mobileNav .container');
 	var mobileNav = document.querySelector('#mobile-nav-container');
     var logoLink = document.querySelector('.site-branding img');
